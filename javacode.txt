@@ -4,4 +4,9 @@ public class Test
 	{
 		System.out.println("dummy");
 	}
+	
+	public static void anotherMethod()
+	{
+	sysout("test");
+	}
 }
