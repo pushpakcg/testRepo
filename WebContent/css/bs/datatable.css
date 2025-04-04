@@ -1,0 +1,91 @@
+.table table-striped{
+margin : auto;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+   padding: 2px 4px;
+    border-bottom: 1px solid #111;
+}
+.table>thead>tr>th, {
+    
+    padding: 2px 4px;
+	border-bottom: 1px solid #111;
+}
+.ScrollStyle
+{
+    max-height: 150px;
+    overflow-y: scroll;
+}
+/* .col-md-10{
+	font-size: 8px;
+} */
+.col-md-8{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 0px;
+    
+}
+.col-md-4{
+    position: relative;
+    min-height: 1px;
+    padding-right: 5px;
+	max-height: 450px;
+    overflow-y: auto;
+	    background-color: aliceblue;
+	    
+    
+}
+h3{
+
+	margin-top:5px;
+	margin-bottom:5px;
+	}
+.paddingdiv{
+    
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.navbar navbar-inverse{
+	margin-bottom:1px;
+
+}
+label{
+    margin-top: 4px;
+}
+
+th{
+	font-size: 13px;
+}
+td{
+ text-align: center;
+font-size: 11px;
+}
+.list-group.panel > .list-group-item {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px
+}
+.list-group-submenu {
+  margin-left:20px;
+}
+.list-group{
+  height:400px;
+  overflow-y:scroll;
+  width:100%;
+}
+#header
+{
+    background-color:orange;
+	font-size:12px;
+	text-color:black;
+}
+
+ 
+ .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: bisque;
+}
+
+ .table-striped>tbody>tr:nth-child(even)>td, .table-striped>tbody>tr:nth-child(even)>th {
+    background-color: white;
+}

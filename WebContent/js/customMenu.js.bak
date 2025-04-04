@@ -1,0 +1,31 @@
+var setting = {
+	data:{
+			simpleData: {
+				enable: true
+			}
+		},
+	callback:{
+				onClick: goToReportPage		
+			}
+};
+
+$(document).ready(function(){
+	var treeNodes = JSON.parse($("#treeNodes").val());
+	$.fn.zTree.init($("#reportsTree"), setting, treeNodes);
+});
+
+function goToReportPage(event, treeId, treeNode){
+	if(treeNode.isActive && !treeNode.isParent){
+		$('#reportName').val(treeNode.name); 	
+		$('#instanceName').val(getInstance(treeNode));
+		$('#reportForm').submit();
+	}
+}
+
+function getInstance(treeNode){
+	var node = treeNode;
+	while(node.getParentNode().name != "FA Tax Reports"){
+		node = node.getParentNode();
+	}
+	return node.name;
+}

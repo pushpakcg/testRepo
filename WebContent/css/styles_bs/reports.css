@@ -1,0 +1,18 @@
+.secondline_main strong {
+    color: #ffffff;
+    float: left;
+    margin: 0px 0 0 1px;
+}
+.label {
+    margin-top: 0px;
+}
+#taxAddReport{
+    height: 29px;
+	}
+#taxRetReport
+{
+ height: 29px;
+}
+#taxRegReport{
+height: 70px;
+}

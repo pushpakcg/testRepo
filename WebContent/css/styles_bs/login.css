@@ -1,0 +1,40 @@
+.mainbox {
+	margin-top: 4%;
+}
+.resetpwd {
+	float: right;
+}
+.requestAcess {
+	float: left;
+}
+.footer {
+	border-top: 1px solid #888;
+	padding-top: 3%;
+}
+.error {
+	color: red;
+}
+.errorMessage {
+	color: green;
+}
+#loginBody {
+	padding-top: 5%;
+}
+#userlogin, userName, password {
+	margin-bottom: 5%;
+	height: 40px;
+}
+.panel-info>.panel-heading {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+#userName,#CurrentPassword,#newPassword,#confirmPassword{
+text-align:left;
+}
+
+
+
+
+
+

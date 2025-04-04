@@ -1,0 +1,50 @@
+.accordion {
+	background-color: #334c67 !important;
+	color: #fff;
+	cursor: pointer;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	border: none;
+	text-align: right;
+	outline: none;
+	color: white;
+	transition: 0.4s;
+}
+
+#selectiontab {
+	background-color: white;
+}
+
+.panel {
+	border-radius: 4px 4px 4px 4px;
+}
+
+.form-group {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+label {
+	font-weight: 100;
+}
+thead tr {
+	font-size: 100px;
+	padding: 1px !important;
+	height: 15px;
+	padding: 1px 18px;
+}
+table.dataTable thead th, table.dataTable thead td {
+    padding: 1px 13px;
+	width:10px
+}
+.active:after {
+	/* symbol for "opening" panels */
+	content: "\e080";
+	float: right;
+	color: grey;
+}
+.accordion:after {
+	content: "\e114";
+	color: #ffffff;
+	font-family: 'Glyphicons Halflings';
+	border: 1px solid #ffffff
+}

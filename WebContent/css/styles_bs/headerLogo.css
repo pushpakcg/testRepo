@@ -1,0 +1,130 @@
+html,body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+.fixed_top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #192d43 !important;
+  z-index: 100;
+  border-bottom: 1px solid #737272;
+}
+.logo_main {
+  margin-top: 8px;
+}
+.faat_logo {
+  width: 247px;
+  /*margin-top: 10px;*/
+}
+.headertxt_lft {
+  color: white;
+  /*    margin-top: 5px;*/
+  font-size: 20px;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  /*    border-bottom: 1px solid #8c8c8c;*/
+  padding-bottom: 18px;
+}
+hr {
+  margin-bottom: -15px;
+  max-width: 23%;
+  border-width: 3px;
+  border-color: #00b146;
+}
+.header_main {
+  background-color: #1b2d42;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 1px 40px;
+}
+.user_main {
+  float: right;
+  color: #ffffff;
+  /*padding-top: 10px;*/
+}
+.user_main p {
+  float: right;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.user {
+  float: right;
+  border-radius: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top:5px;
+}
+.reset_psw {
+	width: auto;
+	position: relative;
+	font-size: 16px;
+}
+.icon_home {
+  float: right;
+  border-radius: 20px;
+  font-size: 30px;
+}
+.dropdown-menu {
+  right: 22px;
+  left: auto;
+  border-radius: 0px;
+  padding: 0px;
+  border: 1px solid #e4e4e4;
+  margin-top: 10px;
+}
+.dropdown-menu>li>a {
+  display: block;
+  padding: 15px 30px 15px 10px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+  border-bottom: 1px solid #e0e0e0;
+}
+.dropdown-menu>li>a:hover {
+  background-color: #1b2d42;
+  color: #ffffff;
+}
+.drop_downicon {
+  color: #ffffff;
+  position: absolute;
+  right: 13px;
+  top: -24px;
+  font-size: 30px;
+}
+.dropdown-menu {
+    right: 22px;
+    left: auto;
+    border-radius: 0px;
+    padding:0px;
+    border: 1px solid #e4e4e4;
+    margin-top:10px;
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 15px 30px 15px 10px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    border-bottom: 1px solid #e0e0e0;
+}
+.dropdown-menu>li>a:hover{
+  background-color:#1b2d42;
+  color: #ffffff;
+}
+.drop_downicon{
+   color: #ffffff;
+    position: absolute;
+    right: 13px;
+    top: -24px;
+    font-size: 30px;
+}
+
