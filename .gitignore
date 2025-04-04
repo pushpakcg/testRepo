@@ -1,1 +1,3 @@
-dispatcher.txt
+WebContent/WEB-INF/dispatcher-servlet.xml
+
+*.jar
